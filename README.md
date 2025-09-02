@@ -1,5 +1,7 @@
 # PatternAD: System Log Anomaly Detection with Noise-Contrastive Learning and Pattern Feature
 
+[中文 README](./README_CN.md)
+
 We propose a novel method for anomaly detection in system log event sequences, named **PatternAD**. This approach leverages **Pattern Feature** and **Noise-Contrastive Learning (NCL)** to achieve efficient **Anomaly Detection (AD)**.  
 
 - **Pattern Feature**: Learns contextual dependencies within log event sequences to identify whether a specific event is potentially anomalous.  
