@@ -71,7 +71,7 @@ The following figure illustrates the training pipeline in PatternAD:
 
 <!-- - **Training Pipeline**   -->
 <!-- ![pipeline](assets/pipeline.png)   -->
-<img src="assets/pipeline.png" alt="pipeline" width="300"/>
+<img src="assets/pipeline.png" alt="pipeline" width="400"/>
 
 
 <!-- --- -->

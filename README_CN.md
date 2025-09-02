@@ -68,7 +68,7 @@ patternAD/
 
 
 <!-- ![pipeline](assets/pipeline.png)   -->
-<img src="assets/pipeline.png" alt="pipeline" width="300"/>
+<img src="assets/pipeline.png" alt="pipeline" width="400"/>
 
 
 <!-- --- -->
