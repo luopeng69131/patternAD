@@ -20,7 +20,20 @@ Python 版本为 **3.10**。安装依赖：
 pip install -r requirements.txt
 ```
 
-<!-- --- -->
+## 预处理数据集下载
+
+本项目实验所用数据集包括**HDFS**, **BGL**, **Hadoop**。已处理好的数据集可从 [Kaggle 数据集](https://www.kaggle.com/datasets/luopeng1996/patternad-dataset) 下载，解压后放置在项目根目录下，目录名为 `dataset`。 
+```
+patternAD/
+│
+├── dataset/              # Place extracted datasets here
+│   ├── hdfs/
+│   ├── bgl/
+│   └── hadoop/
+├── .gitignore
+└── README.md
+``` 
+  
 
 ## 使用方法
 
@@ -34,22 +47,7 @@ python train_pattern_and_detector.py --dataset ${dataset} --test-num 5
 
 <!-- --- -->
 
-## 预处理数据集下载
 
-本项目实验所用数据集包括**HDFS**, **BGL**, **Hadoop**。已处理好的数据集可从 [Kaggle 数据集](https://www.kaggle.com/datasets/luopeng1996/patternad-dataset) 下载，解压后放置在项目根目录下，目录名为 `dataset`。 
-```
-patternAD/
-│
-├── dataset/              # Place extracted datasets here
-│   ├── hdfs/
-│   ├── bgl/
-│   └── hadoop/
-│
-├── train/                # Training scripts and modules
-├── .gitignore
-└── README.md
-``` 
-  
 
 <!-- --- -->
 

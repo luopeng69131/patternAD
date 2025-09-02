@@ -23,15 +23,6 @@ pip install -r requirements.txt
 
 <!-- --- -->
 
-## Usage
-
-Run the training and testing pipeline:  
-```bash
-python train_pattern_and_detector.py --dataset ${dataset} --test-num 5
-```
-
-- `${dataset}` options: `hdfs` / `bgl` / `hadoop`  
-- `${test-num}` specifies the number of test runs  
 
 <!-- --- -->
 
@@ -46,11 +37,20 @@ patternAD/
 │   ├── hdfs/
 │   ├── bgl/
 │   └── hadoop/
-│
-├── train/                # Training scripts and modules
 ├── .gitignore
 └── README.md
 ```
+
+## Usage
+
+Run the training and testing pipeline:  
+```bash
+python train_pattern_and_detector.py --dataset ${dataset} --test-num 5
+```
+
+- `${dataset}` options: `hdfs` / `bgl` / `hadoop`  
+- `${test-num}` specifies the number of test runs  
+
 
 <!-- --- -->
 
@@ -65,7 +65,7 @@ Raw log data comes from the [Anomaly Detection Log Datasets](https://github.com/
 
 <!-- --- -->
 
-## Method Overview
+## Method Pipeline
 
 The following figure illustrates the training pipeline in PatternAD:  
 
