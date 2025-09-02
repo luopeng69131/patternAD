@@ -1,6 +1,6 @@
 # PatternAD: System Log Anomaly Detection with Noise-Contrastive Learning and Pattern Feature
 
-我们提出了一种针对系统日志事件序列异常检测的方法 **PatternAD**。该方法基于 **Pattern Feature** 与 **Noise-Contrastive Learning (NCL)** 实现了高效的 **Anomaly Detection (AD)**。  
+**PatternAD**是一种面向系统日志事件序列异常检测的方法。该方法基于 **Pattern Feature** 与 **Noise-Contrastive Learning (NCL)** 实现了高效的 **Anomaly Detection (AD)**。  
 
 - **Pattern Feature**：通过学习日志事件序列上下文的依赖关系，判断某一事件是否存在潜在异常。  
 - **Noise-Contrastive Learning**：通过对比式学习，直接判断整个事件序列是否为异常，无需事件预测作为中间任务。  
