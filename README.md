@@ -9,7 +9,9 @@ We propose a novel method for anomaly detection in system log event sequences, n
 
 To achieve lightweight inference, we have adjusted the design: **Pattern Model** is built using **CART decision trees**. **AD Detector** is implemented with **LightGBM**.  
 
-![overview](assets/overview.png)  
+<!-- ![overview](assets/overview.png)   -->
+
+<img src="assets/overview.png" alt="overview" width="350"/>
 
 <!-- --- -->
 

@@ -7,7 +7,9 @@
 
 为了实现轻量化推理，我们做了一些调整：**Pattern Model** 使用 **CART 决策树** 进行建模；**AD Detector** 使用 **LightGBM** 进行异常检测。  
 
- ![overview](assets/overview.png)  
+ <!-- ![overview](assets/overview.png)   -->
+
+ <img src="assets/overview.png" alt="overview" width="350"/>
 
 <!-- --- -->
 
