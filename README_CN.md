@@ -9,7 +9,7 @@
 
  <!-- ![overview](assets/overview.png)   -->
 
- <img src="assets/overview.png" alt="overview" width="350"/>
+ <img src="assets/overview.png" alt="overview" width="450"/>
 
 <!-- --- -->
 
