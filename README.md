@@ -2,7 +2,7 @@
 
 [中文 README](./README_CN.md)
 
-**PatternAD** is a method for anomaly detection in system log event sequences. This approach leverages **Pattern Feature** and **Noise-Contrastive Learning (NCL)** to achieve efficient **Anomaly Detection (AD)**.  
+**PatternAD** is a system log anomaly detection method. This approach leverages **Pattern Feature** and **Noise-Contrastive Learning (NCL)** to achieve efficient **Anomaly Detection (AD)**.  
 
 - **Pattern Feature**: Learns contextual dependencies within log event sequences to identify whether a specific event is potentially anomalous.  
 - **Noise-Contrastive Learning**: Directly determines whether the entire event sequence is anomalous through contrastive learning, avoiding predicting event as the intermediate task.  
